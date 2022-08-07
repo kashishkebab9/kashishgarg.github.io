@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Hack, monospace;
     margin:0;
 }
 
@@ -26,6 +26,12 @@ li a {
     text-decoration: none;
 }
 
+.exyn{
+    background-color:#95C054 ;
+    block-size: 65em;
+
+}
+
 .houmech1 {
     background-color:#474747 ;
     block-size: 65em;
@@ -34,6 +40,15 @@ li a {
 .title {
     margin: 0 0 0 0em;
     font-size: 3.5rem;
+    font-weight: bold;
+
+}
+
+.project-title {
+    margin: 0 0 0 0em;
+    font-size: 3.0rem;
+    padding-top: 50px;
+    font-weight: bold;
 
 }
 
@@ -42,6 +57,12 @@ li a {
     margin: 0px;
 }
 
+.exyntext {
+    color:#4e5861;
+    text-align:center;
+    padding:5em;
+    font-size: 1.75rem;
+}
 .houmechtext {
     color: white;
     text-align: center;
@@ -53,6 +74,24 @@ li a {
     float: left;
     padding: 50px;
     background-color: #474747;
+}
+
+.exynpiccontainer{
+    background-color: #95C054;
+    block-size: 55em;
+    
+
+}
+
+.exynmainpic{
+    display:block;
+    width:auto;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    border-radius: 50%;
 }
 
 
@@ -69,13 +108,22 @@ li a {
 
 .projdesc {
     font-size: 1.6rem;
+    font-style: italic;
 }
 
+.exynproj {
+    color:#4e5861;
+    padding-top: 1em;
 
-.projectmid {
+}
+
+.project {
     color: #F2AA4C;
 }
 
+.exyndesc text {
+    color:#4e5861;
+}
 
 .houmechdesc text {
     color: white;
