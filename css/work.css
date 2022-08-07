@@ -8,13 +8,18 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:  white;
-    height: 7.5em;
+    /* background-color:  white; */
+    /* height: 7.5em; */
+    background-color: #c1c1c9;
+    background-image:  radial-gradient(#000000 0.5px, transparent 0.5px), radial-gradient(#000000 0.5px, #c1c1c9 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
 }
+
   
 li {
     float: left;
-    margin: 1.5em .5em 1.5em 5em;
+    margin: 1.5em .5em 1.5em 10rem;
     font-size: 1.25rem;
 }
   
@@ -72,42 +77,65 @@ li a {
 }
 
 
-.exynpiccontainer{
-    background-color: #e5e5f7;
-    background-image:  linear-gradient(30deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(150deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(30deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(150deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(60deg, #95C05477 25%, transparent 25.5%, transparent 75%, #95C05477 75%, #95C05477), linear-gradient(60deg, #95C05477 25%, transparent 25.5%, transparent 75%, #95C05477 75%, #95C05477);
-    background-size: 20px 35px;
-    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+/* .exynpiccontainer{
     block-size: 40em;
     position: relative;
-    display: flex;
     column-count: 2;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    overflow: hidden;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
 
+} */
+
+.grid{
+    display: grid;
+    grid-gap: 15rem;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, 850px);
+
+    background-color: #c1c1c9;
+    background-image:  radial-gradient(#000 0.5px, transparent 0.5px), radial-gradient(#000 0.5px, #c1c1c9 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    padding-bottom: 70px;
+    
 }
+
+/* .grid > * {
+    background-color: green;
+    height: 200px;
+
+} */
 
 
 
 .exynmainpic{
     display:block;
+    height: auto;
     width:auto;
-    max-height: 100%;
+    max-width: 500px;
+    max-height: 500px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-    padding-top: 50px;
+    /* overflow: hidden; */
     border-radius: 50%;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .exynsecondpic{
     display:block;
+    height: auto;
     width:auto;
-    max-height: 80%;
+    max-width: 500px;
+    max-height: 500px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    /* overflow: hidden; */
+    /* padding-top: 70px;
+    padding-bottom: 50px; */
     /* border-radius: 50%; */
 }
 
@@ -188,7 +216,7 @@ li a {
   
   a{
     display: block;
-    width: 200px;
+    width: 8rem;
     height: 40px;
     line-height: 40px;
     font-size: 18px;
