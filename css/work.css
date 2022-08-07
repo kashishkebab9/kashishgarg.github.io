@@ -8,13 +8,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color:  white; */
+    background-color:  #708090;
     /* height: 7.5em; */
-    background-color: #c1c1c9;
-    background-image:  radial-gradient(#000000 0.5px, transparent 0.5px), radial-gradient(#000000 0.5px, #c1c1c9 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0,10px 10px;
 }
+
 
   
 li {
@@ -92,15 +89,17 @@ li a {
 
 .grid{
     display: grid;
-    grid-gap: 15rem;
+    /* grid-gap: ; */
     grid-auto-flow: column;
-    grid-template-columns: repeat(auto-fit, 850px);
+    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
 
-    background-color: #c1c1c9;
-    background-image:  radial-gradient(#000 0.5px, transparent 0.5px), radial-gradient(#000 0.5px, #c1c1c9 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0,10px 10px;
+    background:
+    linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
     padding-bottom: 70px;
+    padding-top: 70px;
     
 }
 
@@ -222,8 +221,8 @@ li a {
     font-size: 18px;
     font-family: sans-serif;
     text-decoration: none;
-    color: #333;
-    border: 2px solid #333;
+    color: white;
+    border: 2px solid white;
     letter-spacing: 2px;
     text-align: center;
     position: relative;
@@ -287,5 +286,12 @@ li a {
     padding-right: 300px;
     font-size: 1.75rem;
 
+
+}
+
+.hometitle {
+    margin: 0 0 0 0em;
+    font-size: 2.75rem;
+    font-weight: bold;
 
 }
