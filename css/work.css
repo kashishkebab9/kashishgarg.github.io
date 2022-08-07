@@ -28,7 +28,7 @@ li a {
 
 .exyn{
     background-color:#95C054 ;
-    block-size: 65em;
+    block-size: 75em;
 
 }
 
@@ -60,7 +60,7 @@ li a {
 .exyntext {
     color:#4e5861;
     text-align:center;
-    padding:5em;
+    padding:2em;
     font-size: 1.75rem;
 }
 .houmechtext {
@@ -77,11 +77,19 @@ li a {
 }
 
 .exynpiccontainer{
-    background-color: #95C054;
-    block-size: 55em;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(150deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(30deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(150deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(60deg, #95C05477 25%, transparent 25.5%, transparent 75%, #95C05477 75%, #95C05477), linear-gradient(60deg, #95C05477 25%, transparent 25.5%, transparent 75%, #95C05477 75%, #95C05477);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    block-size: 40em;
+    position: relative;
+    display: flex;
+    column-count: 2;
     
 
 }
+
 
 .exynmainpic{
     display:block;
@@ -92,8 +100,20 @@ li a {
     overflow: hidden;
     padding-top: 50px;
     border-radius: 50%;
+    padding-bottom: 50px;
 }
 
+.exynsecondpic{
+    display:block;
+    width:auto;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    /* border-radius: 50%; */
+}
 
 .project-container {
     position: relative;
