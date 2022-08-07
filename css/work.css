@@ -14,7 +14,7 @@ ul {
   
 li {
     float: left;
-    margin: 1.5em .5em 1.5em 10em;
+    margin: 1.5em .5em 1.5em 5em;
     font-size: 1.25rem;
 }
   
@@ -31,29 +31,30 @@ li a {
     block-size: 75em;
 
 }
+.hmi{
+    background-color:#E16A2B ;
+    block-size: 75em;
 
-.houmech1 {
-    background-color:#474747 ;
-    block-size: 65em;
 }
+
 
 .title {
     margin: 0 0 0 0em;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     font-weight: bold;
 
 }
 
 .project-title {
     margin: 0 0 0 0em;
-    font-size: 3.0rem;
+    font-size: 2.5rem;
     padding-top: 50px;
     font-weight: bold;
 
 }
 
 .date {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     margin: 0px;
 }
 
@@ -63,22 +64,16 @@ li a {
     padding:2em;
     font-size: 1.75rem;
 }
-.houmechtext {
-    color: white;
-    text-align: center;
-    padding: 5em;
+.hmitext {
+    color:#E5FFF6;
+    text-align:center;
+    padding:2em;
     font-size: 1.75rem;
 }
 
-.houmech1 img {
-    float: left;
-    padding: 50px;
-    background-color: #474747;
-}
 
 .exynpiccontainer{
     background-color: #e5e5f7;
-    opacity: 0.8;
     background-image:  linear-gradient(30deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(150deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(30deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(150deg, #95C054 12%, transparent 12.5%, transparent 87%, #95C054 87.5%, #95C054), linear-gradient(60deg, #95C05477 25%, transparent 25.5%, transparent 75%, #95C05477 75%, #95C05477), linear-gradient(60deg, #95C05477 25%, transparent 25.5%, transparent 75%, #95C05477 75%, #95C05477);
     background-size: 20px 35px;
     background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
@@ -89,6 +84,7 @@ li a {
     
 
 }
+
 
 
 .exynmainpic{
@@ -122,6 +118,39 @@ li a {
     
 }
 
+.hmipiccontainer{
+    /* background-color: #000080; */
+    block-size: 40em;
+    position: relative;
+    display: flex;
+    /* column-count: 2; */
+    background-color: #464c87;
+    background-image:  repeating-linear-gradient(45deg, #000080 25%, transparent 25%, transparent 75%, #000080 75%, #000080), repeating-linear-gradient(45deg, #000080 25%, #464c87 25%, #464c87 75%, #000080 75%, #000080);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+}
+.hmimainpic{
+    display:block;
+    width:auto;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hmisecondpic{
+    display:block;
+    width:auto;
+    max-height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    /* border-radius: 50%; */
+}
 .work {
     font-size: 2.2rem;
 }
@@ -137,6 +166,12 @@ li a {
 
 }
 
+.hmiproj {
+    color:#E5FFF6;
+    padding-top: 1em;
+
+}
+
 .project {
     color: #F2AA4C;
 }
@@ -145,8 +180,84 @@ li a {
     color:#4e5861;
 }
 
-.houmechdesc text {
-    color: white;
+.hmidesc text {
+    color: #E5FFF6;
     
 }
 
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+
+
+
+
+.homemainpic{
+    display:block;
+    width:auto;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    border-radius: 50%;
+    padding-bottom: 50px;
+}
+
+.aboutmetitle{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-right: 300px; */
+    font-size: 3.0rem;
+
+
+}
+.aboutme{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 300px;
+    font-size: 1.75rem;
+
+
+}
