@@ -74,18 +74,6 @@ li a {
 }
 
 
-/* .exynpiccontainer{
-    block-size: 40em;
-    position: relative;
-    column-count: 2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    overflow: hidden;
-    padding-bottom: 7rem;
-    padding-top: 5rem;
-
-} */
 
 .grid{
     display: grid;
@@ -103,11 +91,6 @@ li a {
     
 }
 
-/* .grid > * {
-    background-color: green;
-    height: 200px;
-
-} */
 
 
 
@@ -221,8 +204,8 @@ li a {
     font-size: 18px;
     font-family: sans-serif;
     text-decoration: none;
-    color: white;
-    border: 2px solid white;
+    color: black;
+    border: 2px solid black;
     letter-spacing: 2px;
     text-align: center;
     position: relative;
@@ -255,43 +238,47 @@ li a {
 
 
 
+.aboutme {
+    float:left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: yellow; */
+    background-image:url(../images/magicpattern-svg-chart-1659930032315.svg);
+}
 
-.homemainpic{
-    display:block;
-    width:auto;
-    max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    padding-top: 50px;
+.aboutmedesc {
+    float:left;
+    width:50%;
+    margin-left: 5%;
+}
+.aboutmephoto {
+    float:right;
+    width: 35%;
+    margin-right:3%;
+}
+.aboutmepicture{
     border-radius: 50%;
-    padding-bottom: 50px;
+    max-width: 500px;
+}
+
+.aboutmeparagraph{
+    font-size: 1.75rem;
+    font-style: italic;
 }
 
 .aboutmetitle{
-    display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding-right: 300px; */
-    font-size: 3.0rem;
-
-
-}
-.aboutme{
-    display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 300px;
-    font-size: 1.75rem;
-
+    font-size:2.25rem;
+    font-weight: bolder;
+    
 
 }
 
-.hometitle {
-    margin: 0 0 0 0em;
-    font-size: 2.75rem;
-    font-weight: bold;
-
+.aboutmenyu {
+    float:left;
+    padding-top:40px;
+    padding-bottom:20px;
+    background-image: url(../images/magicpattern-svg-chart-1659930306692.svg);
 }
+  
+
+
