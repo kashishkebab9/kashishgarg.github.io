@@ -248,13 +248,13 @@ li a {
 
 .aboutmedesc {
     float:left;
-    width:50%;
-    margin-left: 5%;
+    width:45%;
+    margin-left: 10%;
 }
 .aboutmephoto {
-    float:right;
+    float:left;
     width: 35%;
-    margin-right:3%;
+    margin-left:10%;
 }
 .aboutmepicture{
     border-radius: 50%;
@@ -273,12 +273,19 @@ li a {
 
 }
 
+
 .aboutmenyu {
     float:left;
     padding-top:40px;
     padding-bottom:20px;
     background-image: url(../images/magicpattern-svg-chart-1659930306692.svg);
 }
-  
-
-
+.aboutmedescnyu {
+    float:left;
+    width: 45%;
+}
+.aboutmenyuphoto {
+    float:left;
+    width: 35%;
+    margin-left:15%;
+}
